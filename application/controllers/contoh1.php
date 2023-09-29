@@ -1,12 +1,28 @@
-<?php
-class Contoh1 extends CI_Controller
-{
-	public function index()
-{
-echo "<h1>Perkenalkan</h1>";
-echo"Nama saya Dimas Chikal Prayoga
-Saya tinggal di daerah bekasi
-olah raga yang saya sukai adalah
-Bulutangkis";
-}
-}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Biodata</title>
+</head>
+
+<body>
+
+	<h1>Biodata Saya</h1>
+
+	<?php
+	// Data biodata
+	$nama = "Dimas Chikal Prayoga";
+	$umur = 20;
+	$alamat = "Pondok Ungu Permai";
+	$email = "dimachikalprayoga@gmail.com";
+
+	// Tampilan biodata
+	echo "<p>Nama: $nama</p>";
+	echo "<p>Umur: $umur tahun</p>";
+	echo "<p>Alamat: $alamat</p>";
+	echo "<p>Email: $email</p>";
+	?>
+
+</body>
+
+</html>
